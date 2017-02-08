@@ -1,0 +1,28 @@
+
+[INSTALL Prerequisites]
+Make sure the following programs are installed and their paths locally available.
+1) Phenix
+2) GNU parallel
+
+
+[INSTALL:Quick]
+1) Download the package from :
+
+2) Unzip using 
+tar -xzf marathonMR.tgz 
+
+3) Enter the directory marathonMR and run the following python program
+marathonMR/marathonMR.py -i DIFFRACTION_DATASET -wd WORK_DIR -pdb PDB_DIR
+
+4) Once the runs are complete (which might take upto a month depending on your machine) a collated_results.csv will be created
+
+5) File "INPROGRESS" inside current working directory indicateds that marathonMR is running.  File "COMPLETED" will be generated once marathonMR is completed
+
+[INSTALL :Detailed]
+1) Download the package from :
+
+2) Unzip using
+tar -xzf marathonMR.tgz
+
+3) Enter the directory marathonMR and run the following python program
+marathonMR/marathonMR.py -h 
